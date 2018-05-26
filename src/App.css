@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+  font-family: "roboto", sans-serif;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited, a:link {
+  color: white;
+}
