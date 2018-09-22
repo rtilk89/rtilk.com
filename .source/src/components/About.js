@@ -6,9 +6,9 @@ const styles = theme => ({
   root: {
     width: 500,
     height: 500,
-    paddingLeft: theme.spacing.unit * 20,
-    paddingTop: theme.spacing.unit * 10,
-    paddingBottom: theme.spacing.unit * 10,
+    paddingLeft: 20,
+    paddingTop: 10,
+    paddingBottom: 10,
   }
 })
 
