@@ -1,30 +1,18 @@
-import React, { Component } from 'react';
-import PropTypes from 'prop-types';
+import React from 'react';
 import { withStyles } from 'material-ui/styles';
+import TopicContainer from './TopicContainer';
 
-const styles = theme => ({
+const styles = {
   root: {
-    width: 500,
-    height: 500,
-    paddingLeft: 20,
-    paddingTop: 10,
-    paddingBottom: 10,
-  }
-})
-
-class About extends Component {
-  render() {
-    const { classes } = this.props;
-    return (
-      <div className={classes.root}>
-        <p>The intersection of finance, technology, and science</p>
-      </div>
-    )
-  }
+      flex: 1,
+      padding: 20,
+  },
 }
 
-About.propTypes = {
-  classes: PropTypes.object.isRequired,
-}
+const About = ({ classes }) => (
+    <div className={classes.root}>
+      <TopicContainer />
+    </div>
+)
 
 export default withStyles(styles)(About);

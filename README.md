@@ -1,6 +1,4 @@
-# Ryanthielkedotcom
----
-This is the start of ryanthielkedotcom
+# rtilk.com
 ---
 ### Goals
 * Build a personal website
