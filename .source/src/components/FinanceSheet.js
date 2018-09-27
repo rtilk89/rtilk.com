@@ -16,7 +16,7 @@ const FinanceSheet = ({ classes })=> (
         </Typography>
         <Typography component='p'>
             Currently working at a quant hedge fund. Interested in all markets,
-            specifically derivaties, and how they relate.
+            specifically derivatives, and how they relate.
         </Typography>
     </Paper>
 )

@@ -1,15 +1,14 @@
 import React from 'react';
-import { withStyles } from '@material-ui/core'
+import { withStyles } from '@material-ui/core/styles'
 
 import Header from './components/Header';
 import About from './components/About';
-import Footer from './components/Footer';
+
 
 const App = ({ classes }) => (
     <div className={ classes.root }>
         <Header />
         <About />
-        <Footer />
     </div>
 )
 

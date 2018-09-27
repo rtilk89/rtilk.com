@@ -1,10 +1,9 @@
 {
-  "name": "ryanthielkedotcom",
+  "name": "rtilk.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^3.1.0",
-    "material-ui": "^1.0.0-beta.47",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
     "typeface-roboto": "0.0.54"
@@ -16,6 +15,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build && cp -r build/* ../",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "start:prod": "node server.js"
   }
 }

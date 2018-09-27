@@ -1,11 +1,11 @@
 import React from 'react';
-import { withStyles } from '@material-ui/core';
+import { withStyles } from '@material-ui/core/styles';
 import Tooltip from '@material-ui/core/Tooltip';
 
 const Header = ({ classes }) => (
     <div className={classes.root}>
-    <div className={classes.name}>Ryan Thielke</div>
-    <div className={classes.space} />
+        <div className={classes.name}>Ryan Thielke</div>
+        <div className={classes.space} />
         <a
           className={classes.link}
           href="https://github.com/rtilk89"
