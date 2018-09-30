@@ -3,18 +3,6 @@ import { withStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 
-const styles = {
-  root: {
-      padding: 10,
-  },
-  title: {
-    paddingBottom: 10,
-  },
-}
-
-const xfitStartDate = new Date(2016, 10, 31);
-const today = new Date();
-const delta = today - xfitStartDate
 
 const CrossfitSheet = ({ classes })=> (
     <Paper className={classes.root}>
@@ -25,5 +13,14 @@ const CrossfitSheet = ({ classes })=> (
         </Typography>
     </Paper>
 )
+
+const styles = {
+  root: {
+      padding: 10,
+  },
+  title: {
+    paddingBottom: 10,
+  },
+}
 
 export default withStyles(styles)(CrossfitSheet);

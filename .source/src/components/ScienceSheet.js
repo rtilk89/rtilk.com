@@ -3,14 +3,6 @@ import { withStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 
-const styles = {
-  root: {
-      padding: 10,
-  },
-  title: {
-      paddingBottom: 10,
-  },
-}
 
 const ScienceSheet = ({ classes })=> (
     <Paper className={classes.root}>
@@ -21,5 +13,14 @@ const ScienceSheet = ({ classes })=> (
         </Typography>
     </Paper>
 )
+
+const styles = {
+  root: {
+      padding: 10,
+  },
+  title: {
+      paddingBottom: 10,
+  },
+}
 
 export default withStyles(styles)(ScienceSheet);
