@@ -7,20 +7,17 @@ const styles = {
   root: {
       padding: 10,
   },
+  title: {
+      paddingBottom: 10,
+  },
 }
 
 const TechnologySheet = ({ classes })=> (
     <Paper className={classes.root}>
-        <Typography variant='headline' component='h3'>
+        <Typography className={classes.title} variant='headline' component='h3'>
             Technology
         </Typography>
         <Typography component='p'>
-            <ul>
-                <li>Python</li>
-                <li>Linux</li>
-                <li>Docker</li>
-                <li>React</li>
-            </ul>
         </Typography>
     </Paper>
 )

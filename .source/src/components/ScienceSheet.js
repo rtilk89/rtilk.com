@@ -7,12 +7,17 @@ const styles = {
   root: {
       padding: 10,
   },
+  title: {
+      paddingBottom: 10,
+  },
 }
 
 const ScienceSheet = ({ classes })=> (
     <Paper className={classes.root}>
-        <Typography variant='headline' component='h3'>
+        <Typography className={classes.title} variant='headline' component='h3'>
             Science
+        </Typography>
+        <Typography component='p'>
         </Typography>
     </Paper>
 )

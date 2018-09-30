@@ -7,16 +7,17 @@ const styles = {
   root: {
       padding: 10,
   },
+  title: {
+      paddingBottom: 10,
+  }
 }
 
 const FinanceSheet = ({ classes })=> (
     <Paper className={classes.root}>
-        <Typography variant='headline' component='h3'>
+        <Typography className={classes.title} variant='headline' component='h3'>
             Finance
         </Typography>
         <Typography component='p'>
-            Currently working at a quant hedge fund. Interested in all markets,
-            specifically derivatives, and how they relate.
         </Typography>
     </Paper>
 )
