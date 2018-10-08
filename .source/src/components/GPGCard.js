@@ -41,7 +41,7 @@ class GPGKey extends React.Component {
         return (
             <pre>{
 `
-pub   rsa2048 2018-10-08 [SC] [expires: 2019-10-08]
+pub   2048R/FAB3F502 2018-10-08 [SC] [expires: 2019-10-08]
       2391 7C21 6E42 474A 7329  A78F 00D8 92B0 FAB3 F502
 uid   Ryan Thielke <rthielke89@gmail.com>
 
