@@ -1,5 +1,5 @@
 import React from 'react';
-import { withStyles } from '@material-ui/core';
+import { withStyles } from '@material-ui/core/styles';
 import TechnologySheet from './TechnologySheet';
 import FinanceSheet from './FinanceSheet';
 import ScienceSheet from './ScienceSheet';
@@ -20,7 +20,7 @@ const About = ({ classes }) => (
        <div className={classes.sheet}>
            <CrossfitSheet />
        </div>
-    </div>
+   </div>
 )
 
 const styles = {

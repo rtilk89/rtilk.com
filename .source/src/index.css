@@ -14,3 +14,7 @@ a:visited {
     color: inherit;
 }
 
+pre {
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
